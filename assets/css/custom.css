@@ -1,0 +1,90 @@
+/**CONTAINER**/
+.eits_container {
+    max-width:1140px!important;
+}
+h5 {
+    font-size:0.9rem;
+    font-weight: 500;
+}
+/**FORMULARIO**/
+.eits_form {
+    display:flex;
+    gap:2rem;
+}
+input, select{
+    padding: 10px 25px 10px 25px;
+    flex-grow:1;
+}
+.eits_btn {
+    background-color: #25475d;
+    transition: all 0.5s ease;
+    padding: 10px 35px 10px 35px;
+    color:#fff;
+    cursor:pointer;
+    border:none;
+}
+.eits_btn:hover {
+    background-color:#f7ae48;
+}
+.eits_btn:focus {
+    background-color:#AC680A;
+    outline:none;
+}
+/**TABLE**/
+table {
+    width:100%;
+    margin-top:2.5rem;
+    border:1px solid #f3f3f3;
+}
+table tbody tr:nth-child(even){
+    background-color:#f3f3f3;
+}
+thead {
+    background-color: #25475d;
+    color:#fff;
+    text-align:center;
+    padding:9px 25px;
+}
+td{
+    padding: 6px 8px;
+}
+td:nth-child(2){
+    width:20%;
+}
+/* td:nth-child(4){
+    width:30%;
+} */
+td:nth-child(6){
+    width:30%;
+}
+/**PAGINATION**/
+.pagination {
+    display: flex;
+    gap: 8px;
+    margin: 0 auto;
+    margin-top: 1.3rem;
+    justify-content:center;
+}
+.btn_page {
+    padding:2px 6px;
+    background-color: #25475d;
+    transition:all 1s ease;
+    color:#fff;
+    cursor:pointer;
+}
+.btn_page:hover {
+    background-color:#f7ae48;   
+}
+/**DIV ERROR**/
+.error_div {
+    color: red;
+}
+.hidden {
+    display:none;
+}
+#no_results {
+    margin-top: 2rem;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 16px
+}

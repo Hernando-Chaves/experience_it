@@ -1,0 +1,17 @@
+{
+    "name": "goths/experience-it",
+    "description": "Plugin desarrollado para prueba de conocimientos de wordpress.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "classmap": ["classes"]
+    },
+    "authors": [
+        {
+            "name": "hernando-chaves-dev",
+            "email": "hernando.chaves.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
